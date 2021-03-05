@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.maincontainer{
+    background-color: aqua;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.topcontainer{
+    background-color: red;
+    display: flex;
+    flex: 0.1;
+}
+
+.buttomcontainer{
+    background-color: yellow;
+    display: flex;
+    flex: 0.9;
+}
+.lefttopcontainer{
+    background-color:pink ;
+    display: flex;
+    flex: 0.2;
+    align-items: center;
+
+}
+
+.righttopcontainer{
+    background-color: dodgerblue;
+    display: flex;
+    flex: 0.8;
+    justify-content: flex-end;
+    padding-top: 20px;
+    
+}
+.leftbuttomcontainer{
+    background-color: grey;
+    display: flex;
+    flex: 0.5;
+}
+.rightbuttomcontainer{
+    background-color: indianred;
+    display: flex;
+    flex: 0.5;
+}
+
+.our-lists{
+    list-style-type: none;
+}
+
+.our-lists li{
+    display: inline;
+    padding-right: 20px;
+}
+.applynowbutton{
+    
+    padding:20px
+
+}
